@@ -1,0 +1,8 @@
+name: Reusable Deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    uses: ./.github/workflows/reusable.yml
